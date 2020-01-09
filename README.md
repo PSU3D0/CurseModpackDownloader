@@ -1,4 +1,4 @@
-# A simple curse modpack downloader written in python
+# CurseModpackDownloader
 ----
 
 ### Setup
@@ -19,9 +19,11 @@ pip install -r requirements.txt
 
 ----
 
-## Planed Features
+## Planned Features
 
 * Clean up code
 * Downloads with asyncio & aiohttp
 * Command line arguments
 * Provide link to forge download and/or download
+
+### Pull requests are welcome!

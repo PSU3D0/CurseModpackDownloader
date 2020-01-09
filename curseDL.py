@@ -82,7 +82,7 @@ class ModpackDownloader():
             download = os.path.join(download_output,mod_name)
 
             if os.path.exists(download):
-                print(f"{mod_name} exists. Skipping download ({i}/{total_mods}")
+                print(f"{mod_name} exists. Skipping download ({i}/{total_mods})")
             else:
                 dl = urlopen(download_url).read()
                 open(download,'wb').write(dl)
